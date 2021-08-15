@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h4{
+    font-size: 15px;
+}
+
+.post{
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    background-color: #f3f3f307;
+    border-radius: 5px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.stories-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border: red solid 3px;
+    border-radius: 50%;
+}
+
+
+.stories-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.principal{
+    width: 95vw;
+    position: relative;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-perfil{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title-div{
+    margin: 0px 5px 10px;
+    flex-grow: 1;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.send{
+    width: 40px;
+}
+
+.market-place{
+    width: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 2px;
+    background-color: #f3efef9a;
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-footer{
+    width: 20px;
+}
+.icons-footer-feed{
+    width: 35px;
+    height: 30px;
+}
+
+.footer__span{
+    margin-bottom: 5px;
+}
